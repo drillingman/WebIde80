@@ -24,8 +24,8 @@
       <project id="untitled" values="0" />
     </group>
     <group name="file-type">
-      <project id="olkweb3" values="ARCHIVE,JSON,PLAIN_TEXT,Images,JavaScript,PATCH,HTML,Ini,LESS,PHP,CoffeeScript,JSHint,YAML,DTD,SmartyConfig,SQL,UNKNOWN,Locale,C++,CSS,XML" />
-      <project id="untitled" values="UNKNOWN,XML,PLAIN_TEXT,PHP" />
+      <project id="olkweb3" values="CoffeeScript,PATCH,JSHint,Ini,UNKNOWN,PHP,JSON,JavaScript,CSS,Locale,SQL,ARCHIVE,XML,C++,Images,DTD,HTML,LESS,PLAIN_TEXT,SourceMap,YAML,SmartyConfig" />
+      <project id="untitled" values="PHP,UNKNOWN,PLAIN_TEXT,XML" />
     </group>
     <group name="JavaScript versions">
       <project id="olkweb3" values="DEFAULT" />
@@ -57,7 +57,8 @@
       <entry feature="ide.settings.Emmet" count="1" />
       <entry feature="ide.settings.Font" count="34" />
       <entry feature="ide.settings.General" count="10" />
-      <entry feature="ide.settings.HTML" count="1" />
+      <entry feature="ide.settings.HTML" count="2" />
+      <entry feature="ide.settings.Inspections" count="2" />
       <entry feature="ide.settings.JavaScript" count="1" />
       <entry feature="ide.settings.Keymap" count="1" />
       <entry feature="ide.settings.LESS" count="1" />
@@ -65,7 +66,7 @@
       <entry feature="ide.settings.PHP" count="11" />
       <entry feature="ide.settings.Spelling" count="1" />
       <entry feature="ide.settings.Vagrant" count="1" />
-      <entry feature="ideaapp.started" count="7" />
+      <entry feature="ideaapp.started" count="11" />
     </counts>
   </component>
 </application>
