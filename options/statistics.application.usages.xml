@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="olkweb3" values="Git" />
+    </group>
+    <group name="module type">
+      <project id="olkweb3" values="WEB_MODULE" />
+      <project id="untitled" values="WEB_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="olkweb3" values="PATCH,JSHint,CSS,XML,Images,HTML,ARCHIVE,PLAIN_TEXT,SQL,UNKNOWN,YAML,SmartyConfig,CoffeeScript,LESS,JavaScript,SourceMap,Ini,JSON,C++,Locale,DTD,PHP" />
+      <project id="untitled" values="PHP,PLAIN_TEXT,XML,UNKNOWN" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="olkweb3" values="Project,Project" />
+      <project id="untitled" values="Project,Project" />
+    </group>
+    <group name="php-interpreters">
+      <project id="olkweb3" values="1" />
+      <project id="untitled" values="1" />
+    </group>
     <group name="php-interpreter-version">
       <project id="olkweb3" values="not installed" />
       <project id="untitled" values="not installed" />
     </group>
     <group name="deployment server">
       <project id="olkweb3" values="LOCAL" />
-    </group>
-    <group name="module type">
-      <project id="olkweb3" values="WEB_MODULE" />
-      <project id="untitled" values="WEB_MODULE" />
-    </group>
-    <group name="vcs">
-      <project id="olkweb3" values="Git" />
     </group>
     <group name="php-servers">
       <project id="olkweb3" values="0" />
@@ -23,10 +35,6 @@
       <project id="olkweb3" values="0" />
       <project id="untitled" values="0" />
     </group>
-    <group name="file-type">
-      <project id="olkweb3" values="PLAIN_TEXT,CSS,JavaScript,XML,Locale,C++,UNKNOWN,Ini,DTD,ARCHIVE,LESS,SQL,YAML,SourceMap,SmartyConfig,JSHint,HTML,Images,PATCH,PHP,JSON,CoffeeScript" />
-      <project id="untitled" values="PHP,PLAIN_TEXT,XML,UNKNOWN" />
-    </group>
     <group name="php-debug-skipped-paths">
       <project id="olkweb3" values="0" />
       <project id="untitled" values="0" />
@@ -34,14 +42,6 @@
     <group name="JavaScript versions">
       <project id="olkweb3" values="DEFAULT" />
       <project id="untitled" values="DEFAULT" />
-    </group>
-    <group name="php-interpreters">
-      <project id="olkweb3" values="1" />
-      <project id="untitled" values="1" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="olkweb3" values="Project,Project" />
-      <project id="untitled" values="Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -59,10 +59,11 @@
       <entry feature="ide.settings.Font" count="37" />
       <entry feature="ide.settings.General" count="16" />
       <entry feature="ide.settings.HTML" count="13" />
+      <entry feature="ide.settings.Ini" count="2" />
       <entry feature="ide.settings.Inspections" count="2" />
-      <entry feature="ide.settings.JavaScript" count="1" />
+      <entry feature="ide.settings.JavaScript" count="6" />
       <entry feature="ide.settings.Keymap" count="1" />
-      <entry feature="ide.settings.LESS" count="1" />
+      <entry feature="ide.settings.LESS" count="3" />
       <entry feature="ide.settings.Language_Defaults" count="24" />
       <entry feature="ide.settings.PHP" count="103" />
       <entry feature="ide.settings.SQL" count="12" />

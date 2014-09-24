@@ -45,7 +45,7 @@
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="file.chooser.recent.files" value="/Applications/MAMP/bin/php/php5.3.28/bin&#10;/Applications/MAMP/bin/php/php5.3.28" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
-    <property name="ColorChooser.RecentColors" value="215-233-243-255,,,141-243-170-255,,,143-216-242-255,,,232-219-173-255,,,43-42-39-255,,,250-53-124-255,,,255-223-42-255,,,250-255-31-255,,,172-164-19-255,,,225-166-103-255,,,150-152-150-255,,,98-250-218-255,,,232-215-80-255,,,190-215-199-255,,,223-228-236-255,,,113-185-73-255,,,180-226-74-255,,,106-181-111-255,,,156-167-176-255,,,255-250-122-255" />
+    <property name="ColorChooser.RecentColors" value="143-216-242-255,,,232-219-173-255,,,43-42-39-255,,,250-53-124-255,,,255-223-42-255,,,250-255-31-255,,,172-164-19-255,,,225-166-103-255,,,150-152-150-255,,,98-250-218-255,,,232-215-80-255,,,190-215-199-255,,,223-228-236-255,,,113-185-73-255,,,180-226-74-255,,,106-181-111-255,,,156-167-176-255,,,255-250-122-255,,,232-91-67-255,,,215-233-243-255" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="SqlStructureView.SqlDdlStatement.file.structure.state" value="true" />
   </component>
