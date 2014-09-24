@@ -37,7 +37,7 @@
     <property name="MemberChooser.showClasses" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="ProjectStructure.SecondLevelElements" value="0.2" />
-    <property name="KEYMAP" value="path t" />
+    <property name="KEYMAP" value="format&#10;vcs&#10;open file&#10;path t" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="FileTemplates.CurrentTab" value="Templates" />
     <property name="FileTemplates.SelectedTemplate" value="Html" />
@@ -48,6 +48,7 @@
     <property name="ColorChooser.RecentColors" value="143-216-242-255,,,232-219-173-255,,,43-42-39-255,,,250-53-124-255,,,255-223-42-255,,,250-255-31-255,,,172-164-19-255,,,225-166-103-255,,,150-152-150-255,,,98-250-218-255,,,232-215-80-255,,,190-215-199-255,,,223-228-236-255,,,113-185-73-255,,,180-226-74-255,,,106-181-111-255,,,156-167-176-255,,,255-250-122-255,,,232-91-67-255,,,215-233-243-255" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="SqlStructureView.SqlDdlStatement.file.structure.state" value="true" />
+    <property name="LayoutCode.processChangedText" value="false" />
   </component>
 </application>
 
