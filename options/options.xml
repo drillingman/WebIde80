@@ -13,6 +13,8 @@
     <location key="OptionsEditor.0.0.1440.900" x="0" y="36" />
     <location key="WELCOME_SCREEN.0.0.1440.900" x="717" y="300" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1440.900" x="180" y="352" />
+    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1250" y="270" />
+    <location key="OptionsEditor.0.0.2560.1440" x="536" y="222" />
     <size key="OptionsEditor.0.0.1920.1200" width="1349" height="846" />
     <size key="DiffWindow.0.0.1920.1200" width="677" height="800" />
     <extendedState key="DiffWindow" state="0" />
