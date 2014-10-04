@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scheme name="Monomonster" version="124" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="10" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
@@ -72,14 +72,15 @@
     </option>
     <option name="BASH.EXTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="c57633" />
+        <option name="FOREGROUND" value="dfe4ec" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="BASH.INTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="b0c95" />
+        <option name="FOREGROUND" value="fa357c" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
