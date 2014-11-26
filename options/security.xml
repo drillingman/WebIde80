@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="PasswordDatabase">
+    <option name="PASSWORDS">
+      <array>
+        <array>
+          <option value="e86d036dc89ed252627ba61b6023ec0b21cbd58fbbacdbe2b530c4a553903dd8" />
+        </array>
+        <array>
+          <option value="8962f7731a0b30862b4da5c9d9830a2cc5f5fc1648242d888b16d1668c2dd1ad" />
+        </array>
+      </array>
+    </option>
+  </component>
+  <component name="SSHConnectionSettings">
+    <successfulAuthentication user="git@stash.innit.no:7999" method="publickey" />
+  </component>
+</application>
+

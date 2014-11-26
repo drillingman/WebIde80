@@ -5,6 +5,15 @@
       <webServer id="cf3a0c50-b5e7-4615-ad32-12a9327869bf" name="Olkweb3" url="http://olkweb3.dev">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="91e855ae-1535-4d27-ac36-723565394717" name="rbfc.dev" url="http://rbfc.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="1fa8dbac-97d8-47e9-8c96-59f35a355b42" name="sponsorportalen" url="http://spp.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="bab920d4-410f-40b5-81db-a1094f1bca74" name="godial.dev" url="http://godial.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />
