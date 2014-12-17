@@ -14,6 +14,9 @@
       <webServer id="bab920d4-410f-40b5-81db-a1094f1bca74" name="godial.dev" url="http://godial.dev">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="99088578-1b98-4b24-b142-4ceabd69c023" name="shtools" url="http://shtools.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />

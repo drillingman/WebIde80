@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="vcs">
@@ -7,7 +6,34 @@
       <project id="rbase3.0" values="svn" />
       <project id="rbfc-trunk" values="svn" />
       <project id="godial" values="Git" />
+      <project id="shtools" values="svn" />
       <project id="sponsorportalen" values="Git" />
+    </group>
+    <group name="svn working copy format">
+      <project id="trunk" values="1.6" />
+      <project id="rbase3.0" values="1.7" />
+      <project id="rbfc-trunk" values="1.6" />
+      <project id="shtools" values="1.7" />
+    </group>
+    <group name="php-interpreters">
+      <project id="trunk" values="1" />
+      <project id="olkweb3" values="1" />
+      <project id="rbase3.0" values="1" />
+      <project id="rbfc-trunk" values="1" />
+      <project id="untitled" values="1" />
+      <project id="godial" values="1" />
+      <project id="shtools" values="1" />
+      <project id="sponsorportalen" values="1" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="trunk" values="not installed" />
+      <project id="olkweb3" values="not installed" />
+      <project id="rbase3.0" values="not installed" />
+      <project id="rbfc-trunk" values="not installed" />
+      <project id="untitled" values="not installed" />
+      <project id="godial" values="not installed" />
+      <project id="shtools" values="not installed" />
+      <project id="sponsorportalen" values="not installed" />
     </group>
     <group name="run-configuration-type">
       <project id="sponsorportalen" values="PhpWebAppRunConfigurationType" />
@@ -19,51 +45,8 @@
       <project id="rbfc-trunk" values="WEB_MODULE" />
       <project id="untitled" values="WEB_MODULE" />
       <project id="godial" values="WEB_MODULE" />
+      <project id="shtools" values="WEB_MODULE" />
       <project id="sponsorportalen" values="WEB_MODULE" />
-    </group>
-    <group name="php-server-debug-ext">
-      <project id="sponsorportalen" values="xdebug" />
-    </group>
-    <group name="file-type">
-      <project id="trunk" values="JSON,XML,SQL,SourceMap,PLAIN_TEXT,Ini,Images,SmartyConfig,CSS,HTML,PHP,JavaScript,UNKNOWN,Locale" />
-      <project id="olkweb3" values="CoffeeScript,XML,C++,UNKNOWN,SQL,CSS,JSHint,PATCH,PHP,YAML,Locale,SourceMap,LESS,SmartyConfig,HTML,JSON,PLAIN_TEXT,Ini,Images,DTD,JavaScript,ARCHIVE" />
-      <project id="rbase3.0" values="PLAIN_TEXT,XML,JSON,PHP,HTML,UNKNOWN,SourceMap,Images,Ini,SQL,Locale,JavaScript,Bash,CSS" />
-      <project id="rbfc-trunk" values="SQL,JSON,CSS,UNKNOWN,XML,Locale,SmartyConfig,Ini,PHP,Bash,JavaScript,PLAIN_TEXT,Images,HTML" />
-      <project id="untitled" values="XML,PHP,PLAIN_TEXT,UNKNOWN" />
-      <project id="godial" values="XML,HTML,SourceMap,CSS,JSON,Locale,UNKNOWN,JavaScript,DATASOURCE_STORAGE,Ini,Images,SmartyConfig,SQL,PLAIN_TEXT,Bash,PHP" />
-      <project id="sponsorportalen" values="Bash,LESS,PLAIN_TEXT,PHP,SQL,CSS,Images,SmartyConfig,JSON,Locale,Ini,UNKNOWN,JavaScript,SourceMap,HTML,XML" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="trunk" values="Project,Project" />
-      <project id="olkweb3" values="Project,Project" />
-      <project id="rbase3.0" values="Project,Project" />
-      <project id="rbfc-trunk" values="Project,Project" />
-      <project id="untitled" values="Project,Project" />
-      <project id="godial" values="Project,Project" />
-      <project id="sponsorportalen" values="Project,Project" />
-    </group>
-    <group name="svn working copy format">
-      <project id="trunk" values="1.6" />
-      <project id="rbase3.0" values="1.7" />
-      <project id="rbfc-trunk" values="1.6" />
-    </group>
-    <group name="php-interpreters">
-      <project id="trunk" values="1" />
-      <project id="olkweb3" values="1" />
-      <project id="rbase3.0" values="1" />
-      <project id="rbfc-trunk" values="1" />
-      <project id="untitled" values="1" />
-      <project id="godial" values="1" />
-      <project id="sponsorportalen" values="1" />
-    </group>
-    <group name="php-interpreter-version">
-      <project id="trunk" values="not installed" />
-      <project id="olkweb3" values="not installed" />
-      <project id="rbase3.0" values="not installed" />
-      <project id="rbfc-trunk" values="not installed" />
-      <project id="untitled" values="not installed" />
-      <project id="godial" values="not installed" />
-      <project id="sponsorportalen" values="not installed" />
     </group>
     <group name="deployment server">
       <project id="trunk" values="LOCAL" />
@@ -71,6 +54,7 @@
       <project id="rbase3.0" values="LOCAL" />
       <project id="rbfc-trunk" values="LOCAL" />
       <project id="godial" values="LOCAL" />
+      <project id="shtools" values="LOCAL" />
       <project id="sponsorportalen" values="LOCAL" />
     </group>
     <group name="php-servers">
@@ -80,6 +64,7 @@
       <project id="rbfc-trunk" values="0" />
       <project id="untitled" values="0" />
       <project id="godial" values="0" />
+      <project id="shtools" values="0" />
       <project id="sponsorportalen" values="1" />
     </group>
     <group name="php-include-path">
@@ -89,19 +74,24 @@
       <project id="rbfc-trunk" values="0" />
       <project id="untitled" values="0" />
       <project id="godial" values="0" />
+      <project id="shtools" values="0" />
       <project id="sponsorportalen" values="0" />
     </group>
-    <group name="jdbc-driver">
-      <project id="godial" values="com.mysql.jdbc.Driver" />
+    <group name="php-server-debug-ext">
+      <project id="sponsorportalen" values="xdebug" />
     </group>
-    <group name="JavaScript versions">
-      <project id="trunk" values="DEFAULT" />
-      <project id="olkweb3" values="DEFAULT" />
-      <project id="rbase3.0" values="DEFAULT" />
-      <project id="rbfc-trunk" values="DEFAULT" />
-      <project id="untitled" values="DEFAULT" />
-      <project id="godial" values="DEFAULT" />
-      <project id="sponsorportalen" values="DEFAULT" />
+    <group name="file-type">
+      <project id="trunk" values="PHP,XML,PLAIN_TEXT,JavaScript,SQL,JSON,SmartyConfig,Ini,CSS,Images,Locale,SourceMap,UNKNOWN,HTML" />
+      <project id="olkweb3" values="JSHint,CoffeeScript,LESS,PATCH,PHP,YAML,Ini,JavaScript,Images,JSON,SmartyConfig,SQL,DTD,CSS,ARCHIVE,PLAIN_TEXT,HTML,XML,SourceMap,C++,UNKNOWN,Locale" />
+      <project id="rbase3.0" values="UNKNOWN,Locale,JavaScript,SQL,Images,PLAIN_TEXT,PHP,Gitignore file,YAML,SourceMap,Ini,Bash,XML,JSON,HTML,CSS" />
+      <project id="rbfc-trunk" values="XML,JSON,Images,JavaScript,SmartyConfig,Ini,PHP,PLAIN_TEXT,CSS,Bash,HTML,UNKNOWN,SQL,Locale" />
+      <project id="untitled" values="XML,PHP,UNKNOWN,PLAIN_TEXT" />
+      <project id="godial" values="PLAIN_TEXT,JSON,JavaScript,PHP,SQL,SmartyConfig,HTML,XML,UNKNOWN,DATASOURCE_STORAGE,Images,YAML,Bash,SourceMap,Locale,Gitignore file,Ini,CSS" />
+      <project id="shtools" values="PLAIN_TEXT,UNKNOWN,Images,JSON,Bash,Ini,Locale,CSS,PHP,SourceMap,JavaScript,SQL,XML,HTML,SmartyConfig" />
+      <project id="sponsorportalen" values="Locale,PLAIN_TEXT,HTML,Bash,Images,JSON,SmartyConfig,YAML,LESS,SourceMap,Ini,Gitignore file,UNKNOWN,CSS,XML,JavaScript,PHP,SQL" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="sponsorportalen" values="js.build_tools.gulp" />
     </group>
     <group name="php-debug-skipped-paths">
       <project id="trunk" values="0" />
@@ -110,16 +100,41 @@
       <project id="rbfc-trunk" values="0" />
       <project id="untitled" values="0" />
       <project id="godial" values="0" />
+      <project id="shtools" values="0" />
       <project id="sponsorportalen" values="0" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="trunk" values="DEFAULT" />
+      <project id="olkweb3" values="DEFAULT" />
+      <project id="rbase3.0" values="DEFAULT" />
+      <project id="rbfc-trunk" values="DEFAULT" />
+      <project id="untitled" values="DEFAULT" />
+      <project id="godial" values="DEFAULT" />
+      <project id="shtools" values="DEFAULT" />
+      <project id="sponsorportalen" values="DEFAULT" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="godial" values="com.mysql.jdbc.Driver" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="trunk" values="Project,Project" />
+      <project id="olkweb3" values="Project,Project" />
+      <project id="rbase3.0" values="Project,Project" />
+      <project id="rbfc-trunk" values="Project,Project" />
+      <project id="untitled" values="Project,Project" />
+      <project id="godial" values="Project,Project" />
+      <project id="shtools" values="Project,Project" />
+      <project id="sponsorportalen" values="Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="4" />
+      <entry feature="CreateFile.CreateFileAction" count="18" />
       <entry feature="NewDirectoryProjectAction.PHP Empty Project" count="1" />
       <entry feature="NewDirectoryProjectAction.empty" count="1" />
       <entry feature="execute.PhpWebAppRunConfigurationType.Debug" count="1" />
-      <entry feature="execute.js.build_tools.gulp.Run" count="7" />
+      <entry feature="execute.js.build_tools.gulp.Debug" count="1" />
+      <entry feature="execute.js.build_tools.gulp.Run" count="50" />
       <entry feature="ide.settings.Appearance" count="5" />
       <entry feature="ide.settings.CSS" count="17" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="46" />
@@ -129,21 +144,21 @@
       <entry feature="ide.settings.Diff" count="8" />
       <entry feature="ide.settings.Editor" count="1" />
       <entry feature="ide.settings.Emmet" count="1" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="3" />
       <entry feature="ide.settings.Font" count="40" />
       <entry feature="ide.settings.General" count="16" />
       <entry feature="ide.settings.HTML" count="13" />
       <entry feature="ide.settings.Ini" count="2" />
       <entry feature="ide.settings.Inspections" count="2" />
       <entry feature="ide.settings.JavaScript" count="6" />
-      <entry feature="ide.settings.Keymap" count="3" />
+      <entry feature="ide.settings.Keymap" count="6" />
       <entry feature="ide.settings.LESS" count="3" />
       <entry feature="ide.settings.Language_Defaults" count="24" />
       <entry feature="ide.settings.PHP" count="104" />
       <entry feature="ide.settings.SQL" count="12" />
       <entry feature="ide.settings.Spelling" count="1" />
       <entry feature="ide.settings.Vagrant" count="1" />
-      <entry feature="ideaapp.started" count="34" />
+      <entry feature="ideaapp.started" count="43" />
     </counts>
   </component>
 </application>
-

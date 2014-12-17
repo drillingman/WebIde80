@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_NON_JAVA" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
       <value>
@@ -36,7 +42,7 @@
         <option name="PATH_TO_PPK" value="" />
       </value>
     </option>
-    <option name="PATH_TO_PASSWORD_FILE" />
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
     <option name="TIMEOUT" value="10" />
     <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
     <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
@@ -48,6 +54,18 @@
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
   </component>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
   <component name="FindSettings">
     <option name="SEARCH_OVERLOADED_METHODS" value="false" />
     <option name="SEARCH_IN_LIBRARIES" value="false" />
@@ -56,7 +74,7 @@
     <option name="FIND_ORIGIN" value="from_cursor" />
     <option name="FIND_SCOPE" value="global" />
     <option name="FIND_CUSTOM_SCOPE" />
-    <option name="CASE_SENSITIVE_SEARCH" value="false" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="false" />
     <option name="WHOLE_WORDS_ONLY" value="false" />
@@ -74,42 +92,82 @@
     <option name="FILE_MASK" />
     <option name="RECENT_FIND_STRINGS">
       <value>
-        <list size="11">
-          <item index="0" class="java.lang.String" itemvalue="orgunit" />
-          <item index="1" class="java.lang.String" itemvalue="Kunde" />
-          <item index="2" class="java.lang.String" itemvalue="$object" />
-          <item index="3" class="java.lang.String" itemvalue="ident" />
-          <item index="4" class="java.lang.String" itemvalue="$this-&gt;storage = new PersonStorage();" />
-          <item index="5" class="java.lang.String" itemvalue="Customer" />
-          <item index="6" class="java.lang.String" itemvalue="modal-" />
-          <item index="7" class="java.lang.String" itemvalue="$this-&gt;storage =" />
-          <item index="8" class="java.lang.String" itemvalue="notop" />
-          <item index="9" class="java.lang.String" itemvalue="$cp" />
-          <item index="10" class="java.lang.String" itemvalue="public function person" />
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="popover-" />
+          <item index="1" class="java.lang.String" itemvalue="footer" />
+          <item index="2" class="java.lang.String" itemvalue="Person" />
+          <item index="3" class="java.lang.String" itemvalue="user" />
+          <item index="4" class="java.lang.String" itemvalue="margin" />
+          <item index="5" class="java.lang.String" itemvalue="_sex" />
+          <item index="6" class="java.lang.String" itemvalue="person/person" />
+          <item index="7" class="java.lang.String" itemvalue="TYPE_PURCHASER" />
+          <item index="8" class="java.lang.String" itemvalue="Purchaseruser" />
+          <item index="9" class="java.lang.String" itemvalue="orgunitperson" />
+          <item index="10" class="java.lang.String" itemvalue="Orgunit" />
+          <item index="11" class="java.lang.String" itemvalue="Purchaser" />
+          <item index="12" class="java.lang.String" itemvalue="Orgunitperson" />
+          <item index="13" class="java.lang.String" itemvalue="/orgunit" />
+          <item index="14" class="java.lang.String" itemvalue="orgunit" />
+          <item index="15" class="java.lang.String" itemvalue="DepartmentProcessor" />
+          <item index="16" class="java.lang.String" itemvalue="panel-hea" />
+          <item index="17" class="java.lang.String" itemvalue="-" />
+          <item index="18" class="java.lang.String" itemvalue="person" />
+          <item index="19" class="java.lang.String" itemvalue="tinymcesetup" />
+          <item index="20" class="java.lang.String" itemvalue="tinymce" />
+          <item index="21" class="java.lang.String" itemvalue="navbar-prof" />
+          <item index="22" class="java.lang.String" itemvalue="navbar-incer" />
+          <item index="23" class="java.lang.String" itemvalue="padding-" />
+          <item index="24" class="java.lang.String" itemvalue="15px" />
+          <item index="25" class="java.lang.String" itemvalue="Department" />
+          <item index="26" class="java.lang.String" itemvalue="avdeling" />
+          <item index="27" class="java.lang.String" itemvalue="department" />
+          <item index="28" class="java.lang.String" itemvalue="TYPE_DEPARTMENT" />
+          <item index="29" class="java.lang.String" itemvalue="$orgunit" />
         </list>
       </value>
     </option>
     <option name="RECENT_REPLACE_STRINGS">
       <value>
-        <list size="12">
-          <item index="0" class="java.lang.String" itemvalue="$office" />
-          <item index="1" class="java.lang.String" itemvalue="office" />
-          <item index="2" class="java.lang.String" itemvalue="$orgunitindex" />
-          <item index="3" class="java.lang.String" itemvalue="$person" />
-          <item index="4" class="java.lang.String" itemvalue="$officeindex" />
-          <item index="5" class="java.lang.String" itemvalue="firstname" />
-          <item index="6" class="java.lang.String" itemvalue="ssn" />
-          <item index="7" class="java.lang.String" itemvalue="sex" />
-          <item index="8" class="java.lang.String" itemvalue="$this-&gt;storage" />
-          <item index="9" class="java.lang.String" itemvalue="person" />
-          <item index="10" class="java.lang.String" itemvalue="Person" />
-          <item index="11" class="java.lang.String" itemvalue="$pp" />
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="ssn" />
+          <item index="1" class="java.lang.String" itemvalue="sex" />
+          <item index="2" class="java.lang.String" itemvalue="$this-&gt;storage" />
+          <item index="3" class="java.lang.String" itemvalue="Person" />
+          <item index="4" class="java.lang.String" itemvalue="$pp" />
+          <item index="5" class="java.lang.String" itemvalue="name" />
+          <item index="6" class="java.lang.String" itemvalue="orgno" />
+          <item index="7" class="java.lang.String" itemvalue="orgunit" />
+          <item index="8" class="java.lang.String" itemvalue="$orgunit" />
+          <item index="9" class="java.lang.String" itemvalue="type" />
+          <item index="10" class="java.lang.String" itemvalue="office" />
+          <item index="11" class="java.lang.String" itemvalue="Spp" />
+          <item index="12" class="java.lang.String" itemvalue="department/department" />
+          <item index="13" class="java.lang.String" itemvalue="User" />
+          <item index="14" class="java.lang.String" itemvalue="user" />
+          <item index="15" class="java.lang.String" itemvalue="person" />
+          <item index="16" class="java.lang.String" itemvalue="TYPE_DEPARTMENT" />
+          <item index="17" class="java.lang.String" itemvalue="Department" />
+          <item index="18" class="java.lang.String" itemvalue="Employee" />
+          <item index="19" class="java.lang.String" itemvalue="/bruker" />
+          <item index="20" class="java.lang.String" itemvalue="/avdeling" />
+          <item index="21" class="java.lang.String" itemvalue="department" />
+          <item index="22" class="java.lang.String" itemvalue="employee" />
+          <item index="23" class="java.lang.String" itemvalue="RBASE.tinymcesetup" />
+          <item index="24" class="java.lang.String" itemvalue="setting" />
+          <item index="25" class="java.lang.String" itemvalue="TYPE_INSTALLOWNER" />
+          <item index="26" class="java.lang.String" itemvalue="Installowner" />
+          <item index="27" class="java.lang.String" itemvalue="installowner" />
+          <item index="28" class="java.lang.String" itemvalue="TYPE_INSTALLDEPARTMENT" />
+          <item index="29" class="java.lang.String" itemvalue="$department" />
         </list>
       </value>
     </option>
     <option name="RECENT_DIR_STRINGS">
       <value>
-        <list size="0" />
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/project/innit/stash/sponsorportalen/module/template/department" />
+          <item index="1" class="java.lang.String" itemvalue="$USER_HOME$/project/innit/stash/sponsorportalen/module/template/person" />
+        </list>
       </value>
     </option>
     <option name="RECENT_FILE_MASKS">
@@ -135,6 +193,7 @@
         <option value="$USER_HOME$/project/innit/stash/godial" />
         <option value="$USER_HOME$/project/innit/innit-project/rbase/branches/rbase3.0" />
         <option value="$USER_HOME$/project/innit/stash/sponsorportalen" />
+        <option value="$USER_HOME$/project/innit/innit-project/sparebanken-hedmark/shtools" />
         <option value="$USER_HOME$/project/privat/rbfc/trunk" />
         <option value="$USER_HOME$/project/drillingman/rbfc/trunk" />
         <option value="$USER_HOME$/project/olk3/olkweb3" />
@@ -146,12 +205,14 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/project/innit/stash/sponsorportalen" />
+        <option value="$USER_HOME$/project/innit/innit-project/rbase/branches/rbase3.0" />
+        <option value="$USER_HOME$/project/innit/stash/godial" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/project/innit/stash/godial" />
   </component>
   <component name="RecentTaskRepositories">
-    <JIRA shared="false" url="http://jira.innit.no:8081">
+    <JIRA shared="true" url="http://jira.innit.no:8081">
       <option name="apiType" value="REST_2_0" />
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password>dfd8dfdedfc5dfc8df9adf93dfc5dfc4dfc0dfc3</password>
@@ -165,7 +226,6 @@
     </JIRA>
   </component>
   <component name="Registry">
-    <entry key="ide.new.settings.dialog" value="false" />
     <entry key="ide.firstStartup" value="false" />
   </component>
   <component name="TemplateSettings">
@@ -212,9 +272,12 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1416997437504" />
+    <option name="LAST_TIME_CHECKED" value="1418630981347" />
     <option name="LAST_BUILD_CHECKED" value="PS-138.2001" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+  <component name="UsageViewSettings">
+    <option name="GROUP_BY_USAGE_TYPE" value="false" />
   </component>
   <component name="XDebuggerSettings">
     <data-views />
@@ -228,34 +291,12 @@
     </debuggers>
   </component>
   <component name="XPathView.XPathViewPlugin">
-    <option name="SHOW_IN_TOOLBAR" value="true" />
-    <option name="SHOW_IN_MAIN_MENU" value="true" />
-    <option name="OPEN_NEW_TAB" value="false" />
-    <option name="HIGHLIGHT_RESULTS" value="true" />
-    <option name="SHOW_USAGE_VIEW" value="false" />
-    <option name="SEARCH_SCOPE">
-      <value type="PROJECT" />
-    </option>
-    <option name="MATCH_RECURSIVELY" value="false" />
     <option name="attributes">
-      <value>
-        <option name="BACKGROUND" value="ffd578" />
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
+      <TextAttributes />
     </option>
     <option name="contextAttributes">
-      <value>
-        <option name="BACKGROUND" value="c2ffd4" />
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
+      <TextAttributes />
     </option>
-    <option name="scrollToFirst" value="true" />
-    <option name="bUseContextAtCursor" value="true" />
-    <option name="bHighlightStartTagOnly" value="true" />
-    <option name="bAddErrorStripe" value="true" />
-  </component>
-  <component name="XSLT-Support.Configuration">
-    <option name="SHOW_LINKED_FILES" value="true" />
   </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
@@ -279,4 +320,3 @@
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
 </application>
-
