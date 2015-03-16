@@ -1,0 +1,9 @@
+<application>
+  <component name="SystemNotifications">
+    <option name="NOTIFICATIONS">
+      <set>
+        <option value="VCS Commit" />
+      </set>
+    </option>
+  </component>
+</application>

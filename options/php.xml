@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/Applications/MAMP/bin/php/php5.3.28/bin" id="07564f93-857c-4ae3-a29f-ada746eb16df" name="MAMP 5.3" />
+      <interpreter home="/Applications/MAMP/bin/php/php5.3.29/bin/php" id="07564f93-857c-4ae3-a29f-ada746eb16df" name="MAMP 5.3" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="MAMP 5.3">
-        <phpinfo path_separator=":" version="5.3.28">
+        <phpinfo path_separator=":" version="5.3.29">
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_call_time_pass_reference" value="1" />
@@ -59,7 +58,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/Applications/MAMP/bin/php/php5.3.28/lib/php/extensions/no-debug-non-zts-20090626/" />
+            <configuration_option name="extension_dir" value="/Applications/MAMP/bin/php/php5.3.29/lib/php/extensions/no-debug-non-zts-20090626/" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -79,7 +78,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php5.3.28/lib/php" />
+            <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php5.3.29/lib/php" />
             <configuration_option name="intl.default_locale" value="" />
             <configuration_option name="intl.error_level" value="0" />
             <configuration_option name="ldap.max_links" value="-1" />
@@ -268,6 +267,7 @@
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="tokenizer" />
+            <extension name="wddx" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
@@ -281,4 +281,3 @@
     </phpInfoCache>
   </component>
 </application>
-

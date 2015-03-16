@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="WebServers">
     <option name="servers">
@@ -17,10 +16,18 @@
       <webServer id="99088578-1b98-4b24-b142-4ceabd69c023" name="shtools" url="http://shtools.dev">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="69975390-a22c-4e04-8d48-29fe90a3b8a4" name="sponsorportalen-ekstern" url="http://spp-xt.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="65bfe647-a2e0-41d2-bf88-d4e9629aa215" name="bilutleie.dev" url="http://bilutleie.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="f9365a21-8093-4edf-af4b-acf7be220c56" name="rent.dev" url="http://rent.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />
     </sftpAdvancedGlobalOptions>
   </component>
 </application>
-

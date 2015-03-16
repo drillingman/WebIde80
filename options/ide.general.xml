@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="GeneralSettings">
     <option name="lastTip" value="1" />
@@ -10,12 +9,11 @@
     <option name="autoSaveIfInactive" value="false" />
     <option name="inactiveTimeout" value="15" />
     <option name="useSafeWrite" value="true" />
-    <option name="useDefaultBrowser" value="true" />
+    <option name="useDefaultBrowser" value="false" />
     <option name="confirmExtractFiles" value="true" />
     <option name="searchInBackground" value="false" />
     <option name="confirmExit" value="false" />
-    <option name="confirmOpenNewProject2" value="-1" />
-    <option name="lastProjectLocation" value="$USER_HOME$/project/innit/innit-project/sparebanken-hedmark" />
+    <option name="confirmOpenNewProject2" value="0" />
+    <option name="lastProjectLocation" value="$USER_HOME$/project/innit/stash" />
   </component>
 </application>
-

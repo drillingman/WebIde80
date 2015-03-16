@@ -1,26 +1,73 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>Orgunit</find>
-      <find>orgunit</find>
-      <find>Department</find>
-      <find>avdeling</find>
-      <find>Avdeling</find>
-      <find>department</find>
-      <find>preg_replace</find>
-      <find>$object</find>
-      <find>Admindashboard</find>
-      <find>preg_</find>
-      <find>Sportassessment</find>
+      <find>Hengerutleie</find>
+      <find>hengerutleie</find>
+      <find>Hengerbehandling</find>
+      <find>Hengerkategori</find>
+      <find>Henger</find>
+      <find>Tilhenger</find>
+      <find>hengere</find>
+      <find>hengeren</find>
+      <find>hengers</find>
+      <find>henger</find>
+      <find>attachment</find>
+      <find>Å</find>
+      <find>row-fluid</find>
+      <find>span</find>
+      <find>fa-question-sign</find>
+      <find>talentstipend/kunst</find>
+      <find>updateS</find>
+      <find>Artapplication</find>
+      <find>btn-logn</find>
+      <find>.btn</find>
+      <find>logge</find>
+      <find>btn-login</find>
+      <find>artapplication</find>
+      <find>Tracking</find>
+      <find>day</find>
+      <find>Portfolio</find>
+      <find>portfolio</find>
+      <find>portefolje</find>
+      <find>Portefølje</find>
+      <find>paybox</find>
     </findStrings>
     <replaceStrings>
-      <replace>Partner</replace>
-      <replace>samarbeidspartner</replace>
-      <replace>Samarbeidspartner</replace>
-      <replace>partner</replace>
-      <replace>$partner</replace>
-      <replace>Sponsingdashboard</replace>
-      <replace>Spocontract</replace>
+      <replace>Art</replace>
+      <replace>art</replace>
+      <replace>Validtodate</replace>
+      <replace>sent</replace>
+      <replace>entdate</replace>
+      <replace>validtodate</replace>
+      <replace>#028a53</replace>
+      <replace>Biler</replace>
+      <replace>Enterprise</replace>
+      <replace>Enterprise bilutleie</replace>
+      <replace>Bilutleie</replace>
+      <replace>bilutleie</replace>
+      <replace>Bilkategori</replace>
+      <replace>Bil</replace>
+      <replace>biler</replace>
+      <replace>cars</replace>
+      <replace>bil</replace>
+      <replace>bilen</replace>
+      <replace>row</replace>
+      <replace>col-md-</replace>
+      <replace>fa-question-circle</replace>
+      <replace>gavemidler</replace>
+      <replace>Gvmapplication</replace>
+      <replace>gvmapplication</replace>
+      <replace>sentdate</replace>
+      <replace>created</replace>
+      <replace>Offer</replace>
+      <replace>offer</replace>
+      <replace>tilbud</replace>
+      <replace>Tilbud</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/handler</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/sportapplication</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/artapplication</dir>
+    </dirStrings>
   </component>
 </application>
