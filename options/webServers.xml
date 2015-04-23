@@ -25,6 +25,12 @@
       <webServer id="f9365a21-8093-4edf-af4b-acf7be220c56" name="rent.dev" url="http://rent.dev">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="4a90428a-f132-4fad-bcf0-2cacedc59a5e" name="eppdrs.dev" url="http://eppdrs.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="cb31c9d2-7228-476c-ae1f-96b987896e3c" name="domenefakturering" url="http://domenefakturering.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />

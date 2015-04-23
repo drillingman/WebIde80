@@ -1260,6 +1260,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="1a1b1e" />
+        <option name="BACKGROUND" value="fffa7a" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>

@@ -7,28 +7,32 @@
       <project id="shtools" values="1.7" />
     </group>
     <group name="php-interpreters">
-      <project id="rbfc-trunk" values="1" />
-      <project id="rbase3" values="1" />
-      <project id="sponsorportalen" values="1" />
-      <project id="godial" values="1" />
-      <project id="bilutleie" values="1" />
-      <project id="trunk" values="1" />
-      <project id="shtools" values="1" />
-      <project id="olkweb3" values="1" />
       <project id="rbase3.0" values="1" />
+      <project id="domenefakturering" values="1" />
+      <project id="sponsorportalen" values="1" />
       <project id="statoilhenger" values="1" />
-      <project id="untitled" values="1" />
+      <project id="epp-drs" values="1" />
       <project id="sponsorportalen-ekstern" values="1" />
+      <project id="trunk" values="1" />
+      <project id="rbfc-trunk" values="1" />
+      <project id="olkweb3" values="1" />
+      <project id="godial" values="1" />
+      <project id="shtools" values="1" />
+      <project id="rbase3" values="1" />
+      <project id="bilutleie" values="1" />
+      <project id="untitled" values="1" />
     </group>
     <group name="vcs">
       <project id="rbfc-trunk" values="svn" />
       <project id="rbase3" values="Git" />
       <project id="sponsorportalen" values="Git" />
       <project id="bilutleie" values="Git" />
+      <project id="epp-drs" values="Git" />
       <project id="trunk" values="svn" />
       <project id="shtools" values="svn" />
       <project id="olkweb3" values="Git" />
       <project id="rbase3.0" values="svn" />
+      <project id="domenefakturering" values="Git" />
       <project id="statoilhenger" values="Git" />
       <project id="godial" values="Git" />
       <project id="sponsorportalen-ekstern" values="Git" />
@@ -37,37 +41,41 @@
       <project id="sponsorportalen" values="PhpWebAppRunConfigurationType" />
     </group>
     <group name="run-configuration-type-temp">
-      <project id="sponsorportalen" values="JavascriptDebugType,js.build_tools.gulp" />
+      <project id="sponsorportalen" values="js.build_tools.gulp,JavascriptDebugType" />
       <project id="sponsorportalen-ekstern" values="js.build_tools.gulp" />
       <project id="godial" values="JavascriptDebugType" />
     </group>
     <group name="file-type">
-      <project id="rbfc-trunk" values="Bash,SQL,UNKNOWN,JSON,PHP,CSS,SmartyConfig,Locale,XML,JavaScript,HTML,Ini,Images,PLAIN_TEXT" />
-      <project id="rbase3" values="PHP,Markdown,XML,YAML,SQL,Images,HTML,SourceMap,Bash,UNKNOWN,LESS,Locale,Ini,CSS,JSON,JavaScript,Git file,SCSS,PLAIN_TEXT" />
-      <project id="sponsorportalen" values="XML,Ini,CSS,YAML,LESS,Locale,Images,SCSS,JSON,SourceMap,HTML,UNKNOWN,Git file,PHP,SmartyConfig,Markdown,Bash,SQL,JavaScript,PLAIN_TEXT" />
-      <project id="godial" values="Bash,CSS,Markdown,SmartyConfig,UNKNOWN,JSON,SourceMap,SQL,Git file,HTML,XML,Locale,Ini,PLAIN_TEXT,SCSS,LESS,JavaScript,DATASOURCE_STORAGE,PHP,Images,YAML" />
-      <project id="bilutleie" values="SQL,LESS,PHP,UNKNOWN,Images,JavaScript,Native,Bash,Markdown,CSS,SourceMap,XML,PLAIN_TEXT,Ini,JSON,Git file,HTML" />
-      <project id="trunk" values="SQL,XML,UNKNOWN,Ini,PHP,Locale,CSS,Images,SmartyConfig,PLAIN_TEXT,JSON,JavaScript,SourceMap,HTML" />
-      <project id="shtools" values="UNKNOWN,JSON,JavaScript,PHP,Images,Bash,Locale,SourceMap,PLAIN_TEXT,HTML,CSS,Ini,SmartyConfig,SQL,XML" />
-      <project id="olkweb3" values="HTML,LESS,PHP,Npmignore file,UNKNOWN,JSON,C++,XML,SmartyConfig,Gitignore file,YAML,JSHint,Images,PLAIN_TEXT,CSS,Markdown,Locale,Native,SQL,Ini,SCSS,ARCHIVE,SourceMap,CoffeeScript,PATCH,Bash,JavaScript,DTD" />
-      <project id="rbase3.0" values="LESS,HTML,XML,Ini,SCSS,PHP,Images,CSS,UNKNOWN,Bash,SourceMap,Git file,JSON,SQL,PLAIN_TEXT,YAML,Markdown,Locale,JavaScript" />
-      <project id="statoilhenger" values="Bash,CSS,SourceMap,UNKNOWN,Native,JavaScript,Markdown,HTML,Git file,SQL,PLAIN_TEXT,PHP,LESS,JSON,Ini,XML,Images" />
-      <project id="untitled" values="PLAIN_TEXT,XML,UNKNOWN,PHP" />
-      <project id="sponsorportalen-ekstern" values="Npm file,TypeScript,Images,JSHint,LESS,Locale,ARCHIVE,C++,Ini,Markdown,DTD,SmartyConfig,Bash,CoffeeScript,PHP,JavaScript,PATCH,SCSS,PLAIN_TEXT,JSON,ESLint,YAML,HTML,SQL,SourceMap,UNKNOWN,CSS,Git file,XML,JSCS" />
+      <project id="rbase3.0" values="Markdown,PHP,LESS,XML,PLAIN_TEXT,Images,Locale,CSS,HTML,SCSS,SourceMap,Bash,Ini,JavaScript,Git file,YAML,UNKNOWN,JSON,SQL" />
+      <project id="domenefakturering" values="JSON,PHP,YAML,JSHint,Ini,Locale,CoffeeScript,SQL,Images,Markdown,SourceMap,ESLint,JavaScript,ARCHIVE,XML,Bash,LESS,Npm file,SCSS,CSS,C++,HTML,TypeScript,Git file,PLAIN_TEXT,JSCS,SmartyConfig,PATCH,UNKNOWN" />
+      <project id="sponsorportalen" values="SmartyConfig,CSS,YAML,JavaScript,SQL,Git file,Ini,UNKNOWN,PLAIN_TEXT,Images,JSON,HTML,Locale,Markdown,PHP,XML,SourceMap,Bash,SCSS" />
+      <project id="statoilhenger" values="SQL,XML,HTML,JavaScript,Ini,PHP,Bash,UNKNOWN,JSON,Images,SourceMap,Native,LESS,Git file,CSS,Markdown,PLAIN_TEXT" />
+      <project id="epp-drs" values="JavaScript,Markdown,DTD,XML,SmartyConfig,Bash,HTML,UNKNOWN,SQL,Images,htaccess,Ini,PHP,Locale,Native,CSS,Smarty,PLAIN_TEXT,Git file" />
+      <project id="sponsorportalen-ekstern" values="Npm file,JSHint file,PHP,JSHint,Bash,JavaScript,SmartyConfig,Images,SourceMap,HTML,SQL,ARCHIVE,DTD,CSS,JSCS,C++,PATCH,UNKNOWN,YAML,XML,Ini,TypeScript,SCSS,ESLint,PLAIN_TEXT,Git file,Locale,CoffeeScript,Markdown,JSON" />
+      <project id="trunk" values="JavaScript,PHP,JSON,XML,PLAIN_TEXT,Locale,SourceMap,CSS,SQL,SmartyConfig,Ini,Images,UNKNOWN,HTML" />
+      <project id="rbfc-trunk" values="PHP,JavaScript,HTML,UNKNOWN,Images,JSON,CSS,SQL,SmartyConfig,Ini,PLAIN_TEXT,Bash,Locale,XML" />
+      <project id="olkweb3" values="Locale,CoffeeScript,JSHint,SCSS,Images,Bash,LESS,SourceMap,C++,Ini,PHP,UNKNOWN,PLAIN_TEXT,Npmignore file,YAML,JSON,SQL,HTML,SmartyConfig,DTD,JavaScript,PATCH,Gitignore file,ARCHIVE,Markdown,Native,CSS,XML" />
+      <project id="godial" values="Bash,XML,SourceMap,PHP,Locale,Markdown,PLAIN_TEXT,UNKNOWN,Images,SCSS,HTML,JSON,DATASOURCE_STORAGE,Ini,CSS,YAML,SmartyConfig,JavaScript,Git file,SQL" />
+      <project id="shtools" values="CSS,JSON,Images,PHP,XML,SQL,HTML,SourceMap,PLAIN_TEXT,SmartyConfig,Locale,JavaScript,UNKNOWN,Ini,Bash" />
+      <project id="rbase3" values="Git file,SCSS,PHP,CSS,PLAIN_TEXT,HTML,YAML,Markdown,UNKNOWN,JSON,Locale,Images,JavaScript,Ini,XML,SourceMap,Bash,SQL" />
+      <project id="bilutleie" values="Ini,Bash,SourceMap,Git file,Markdown,JavaScript,UNKNOWN,JSON,Native,CSS,SQL,PHP,LESS,Images,XML,PLAIN_TEXT,HTML" />
+      <project id="untitled" values="XML,PLAIN_TEXT,PHP,UNKNOWN" />
     </group>
     <group name="php-interpreter-version">
-      <project id="rbfc-trunk" values="not installed" />
-      <project id="rbase3" values="not installed" />
-      <project id="sponsorportalen" values="not installed" />
-      <project id="godial" values="not installed" />
-      <project id="bilutleie" values="not installed" />
-      <project id="trunk" values="not installed" />
-      <project id="shtools" values="not installed" />
-      <project id="olkweb3" values="not installed" />
       <project id="rbase3.0" values="not installed" />
+      <project id="domenefakturering" values="not installed" />
+      <project id="sponsorportalen" values="not installed" />
       <project id="statoilhenger" values="not installed" />
-      <project id="untitled" values="not installed" />
+      <project id="epp-drs" values="not installed" />
       <project id="sponsorportalen-ekstern" values="5.3.29" />
+      <project id="trunk" values="not installed" />
+      <project id="rbfc-trunk" values="not installed" />
+      <project id="olkweb3" values="not installed" />
+      <project id="godial" values="not installed" />
+      <project id="shtools" values="not installed" />
+      <project id="rbase3" values="not installed" />
+      <project id="bilutleie" values="not installed" />
+      <project id="untitled" values="not installed" />
     </group>
     <group name="php-interpreter-debug-ext">
       <project id="sponsorportalen-ekstern" values="xdebug" />
@@ -80,114 +88,128 @@
       <project id="rbase3" values="LOCAL" />
       <project id="sponsorportalen" values="LOCAL" />
       <project id="bilutleie" values="LOCAL" />
+      <project id="epp-drs" values="LOCAL" />
       <project id="trunk" values="LOCAL" />
       <project id="shtools" values="LOCAL" />
       <project id="olkweb3" values="LOCAL" />
       <project id="rbase3.0" values="LOCAL" />
+      <project id="domenefakturering" values="LOCAL" />
       <project id="statoilhenger" values="LOCAL" />
       <project id="godial" values="LOCAL" />
       <project id="sponsorportalen-ekstern" values="LOCAL" />
     </group>
     <group name="module type">
-      <project id="rbfc-trunk" values="WEB_MODULE" />
-      <project id="rbase3" values="WEB_MODULE" />
-      <project id="sponsorportalen" values="WEB_MODULE" />
-      <project id="godial" values="WEB_MODULE" />
-      <project id="bilutleie" values="WEB_MODULE" />
-      <project id="trunk" values="WEB_MODULE" />
-      <project id="shtools" values="WEB_MODULE" />
-      <project id="olkweb3" values="WEB_MODULE" />
       <project id="rbase3.0" values="WEB_MODULE" />
+      <project id="domenefakturering" values="WEB_MODULE" />
+      <project id="sponsorportalen" values="WEB_MODULE" />
       <project id="statoilhenger" values="WEB_MODULE" />
-      <project id="untitled" values="WEB_MODULE" />
+      <project id="epp-drs" values="WEB_MODULE" />
       <project id="sponsorportalen-ekstern" values="WEB_MODULE" />
+      <project id="trunk" values="WEB_MODULE" />
+      <project id="rbfc-trunk" values="WEB_MODULE" />
+      <project id="olkweb3" values="WEB_MODULE" />
+      <project id="godial" values="WEB_MODULE" />
+      <project id="shtools" values="WEB_MODULE" />
+      <project id="rbase3" values="WEB_MODULE" />
+      <project id="bilutleie" values="WEB_MODULE" />
+      <project id="untitled" values="WEB_MODULE" />
     </group>
     <group name="JavaScript versions">
-      <project id="rbfc-trunk" values="DEFAULT" />
-      <project id="rbase3" values="DEFAULT" />
-      <project id="sponsorportalen" values="DEFAULT" />
-      <project id="godial" values="DEFAULT" />
-      <project id="bilutleie" values="DEFAULT" />
-      <project id="trunk" values="DEFAULT" />
-      <project id="shtools" values="DEFAULT" />
-      <project id="olkweb3" values="DEFAULT" />
       <project id="rbase3.0" values="DEFAULT" />
+      <project id="domenefakturering" values="DEFAULT" />
+      <project id="sponsorportalen" values="DEFAULT" />
       <project id="statoilhenger" values="DEFAULT" />
-      <project id="untitled" values="DEFAULT" />
+      <project id="epp-drs" values="DEFAULT" />
       <project id="sponsorportalen-ekstern" values="DEFAULT" />
+      <project id="trunk" values="DEFAULT" />
+      <project id="rbfc-trunk" values="DEFAULT" />
+      <project id="olkweb3" values="DEFAULT" />
+      <project id="godial" values="DEFAULT" />
+      <project id="shtools" values="DEFAULT" />
+      <project id="rbase3" values="DEFAULT" />
+      <project id="bilutleie" values="DEFAULT" />
+      <project id="untitled" values="DEFAULT" />
     </group>
     <group name="javaScript Scope Usages">
-      <project id="rbfc-trunk" values="Project,Project" />
-      <project id="rbase3" values="Project,Project" />
-      <project id="sponsorportalen" values="Project,Project" />
-      <project id="godial" values="Project,Project" />
-      <project id="bilutleie" values="Project,Project" />
-      <project id="trunk" values="Project,Project" />
-      <project id="shtools" values="Project,Project" />
-      <project id="olkweb3" values="Project,Project" />
       <project id="rbase3.0" values="Project,Project" />
+      <project id="domenefakturering" values="Project,Project" />
+      <project id="sponsorportalen" values="Project,Project" />
       <project id="statoilhenger" values="Project,Project" />
-      <project id="untitled" values="Project,Project" />
+      <project id="epp-drs" values="Project,Project" />
       <project id="sponsorportalen-ekstern" values="Project,Project" />
+      <project id="trunk" values="Project,Project" />
+      <project id="rbfc-trunk" values="Project,Project" />
+      <project id="olkweb3" values="Project,Project" />
+      <project id="godial" values="Project,Project" />
+      <project id="shtools" values="Project,Project" />
+      <project id="rbase3" values="Project,Project" />
+      <project id="bilutleie" values="Project,Project" />
+      <project id="untitled" values="Project,Project" />
     </group>
     <group name="php-debug-skipped-paths">
-      <project id="rbfc-trunk" values="0" />
-      <project id="rbase3" values="0" />
-      <project id="sponsorportalen" values="0" />
-      <project id="godial" values="0" />
-      <project id="bilutleie" values="0" />
-      <project id="trunk" values="0" />
-      <project id="shtools" values="0" />
-      <project id="olkweb3" values="0" />
       <project id="rbase3.0" values="0" />
+      <project id="domenefakturering" values="0" />
+      <project id="sponsorportalen" values="0" />
       <project id="statoilhenger" values="0" />
-      <project id="untitled" values="0" />
+      <project id="epp-drs" values="0" />
       <project id="sponsorportalen-ekstern" values="0" />
+      <project id="trunk" values="0" />
+      <project id="rbfc-trunk" values="0" />
+      <project id="olkweb3" values="0" />
+      <project id="godial" values="0" />
+      <project id="shtools" values="0" />
+      <project id="rbase3" values="0" />
+      <project id="bilutleie" values="0" />
+      <project id="untitled" values="0" />
     </group>
     <group name="php-servers">
-      <project id="rbfc-trunk" values="0" />
-      <project id="rbase3" values="0" />
-      <project id="sponsorportalen" values="1" />
-      <project id="godial" values="1" />
-      <project id="bilutleie" values="0" />
-      <project id="trunk" values="0" />
-      <project id="shtools" values="0" />
-      <project id="olkweb3" values="0" />
       <project id="rbase3.0" values="0" />
-      <project id="statoilhenger" values="0" />
-      <project id="untitled" values="0" />
+      <project id="domenefakturering" values="2" />
+      <project id="sponsorportalen" values="1" />
+      <project id="statoilhenger" values="1" />
+      <project id="epp-drs" values="0" />
       <project id="sponsorportalen-ekstern" values="1" />
+      <project id="trunk" values="0" />
+      <project id="rbfc-trunk" values="0" />
+      <project id="olkweb3" values="0" />
+      <project id="godial" values="2" />
+      <project id="shtools" values="0" />
+      <project id="rbase3" values="2" />
+      <project id="bilutleie" values="0" />
+      <project id="untitled" values="0" />
     </group>
     <group name="php-include-path">
-      <project id="rbfc-trunk" values="0" />
-      <project id="rbase3" values="0" />
-      <project id="sponsorportalen" values="0" />
-      <project id="godial" values="0" />
-      <project id="bilutleie" values="0" />
-      <project id="trunk" values="0" />
-      <project id="shtools" values="0" />
-      <project id="olkweb3" values="0" />
       <project id="rbase3.0" values="0" />
+      <project id="domenefakturering" values="0" />
+      <project id="sponsorportalen" values="0" />
       <project id="statoilhenger" values="0" />
-      <project id="untitled" values="0" />
+      <project id="epp-drs" values="0" />
       <project id="sponsorportalen-ekstern" values="0" />
+      <project id="trunk" values="0" />
+      <project id="rbfc-trunk" values="0" />
+      <project id="olkweb3" values="0" />
+      <project id="godial" values="0" />
+      <project id="shtools" values="0" />
+      <project id="rbase3" values="0" />
+      <project id="bilutleie" values="0" />
+      <project id="untitled" values="0" />
     </group>
     <group name="php-server-debug-ext">
       <project id="sponsorportalen" values="xdebug" />
+      <project id="statoilhenger" values="xdebug" />
       <project id="sponsorportalen-ekstern" values="xdebug" />
-      <project id="godial" values="xdebug" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="25" />
+      <entry feature="CreateFile.CreateFileAction" count="34" />
       <entry feature="NewDirectoryProjectAction.PHP Empty Project" count="1" />
       <entry feature="NewDirectoryProjectAction.empty" count="1" />
       <entry feature="execute.JavascriptDebugType.Debug" count="5" />
-      <entry feature="execute.JavascriptDebugType.Run" count="2" />
+      <entry feature="execute.JavascriptDebugType.Run" count="3" />
       <entry feature="execute.PhpWebAppRunConfigurationType.Debug" count="3" />
       <entry feature="execute.js.build_tools.gulp.Debug" count="4" />
-      <entry feature="execute.js.build_tools.gulp.Run" count="88" />
+      <entry feature="execute.js.build_tools.gulp.Run" count="125" />
       <entry feature="ide.settings.Appearance" count="5" />
       <entry feature="ide.settings.CSS" count="17" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="46" />
@@ -202,21 +224,22 @@
       <entry feature="ide.settings.File_Encodings" count="5" />
       <entry feature="ide.settings.File_and_Code_Templates" count="3" />
       <entry feature="ide.settings.Font" count="40" />
-      <entry feature="ide.settings.General" count="18" />
+      <entry feature="ide.settings.General" count="20" />
       <entry feature="ide.settings.HTML" count="13" />
       <entry feature="ide.settings.Ini" count="2" />
       <entry feature="ide.settings.Inspections" count="2" />
       <entry feature="ide.settings.JavaScript" count="6" />
-      <entry feature="ide.settings.Keymap" count="7" />
+      <entry feature="ide.settings.Keymap" count="8" />
       <entry feature="ide.settings.LESS" count="3" />
       <entry feature="ide.settings.Language_Defaults" count="24" />
       <entry feature="ide.settings.PHP" count="105" />
       <entry feature="ide.settings.SQL" count="12" />
       <entry feature="ide.settings.SQL_Dialects" count="1" />
+      <entry feature="ide.settings.Servers" count="2" />
       <entry feature="ide.settings.Spelling" count="1" />
       <entry feature="ide.settings.Vagrant" count="1" />
-      <entry feature="ide.settings.Version_Control" count="1" />
-      <entry feature="ideaapp.started" count="76" />
+      <entry feature="ide.settings.Version_Control" count="3" />
+      <entry feature="ideaapp.started" count="88" />
     </counts>
   </component>
 </application>

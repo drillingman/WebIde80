@@ -1,73 +1,77 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>Hengerutleie</find>
-      <find>hengerutleie</find>
-      <find>Hengerbehandling</find>
-      <find>Hengerkategori</find>
-      <find>Henger</find>
-      <find>Tilhenger</find>
-      <find>hengere</find>
-      <find>hengeren</find>
-      <find>hengers</find>
-      <find>henger</find>
-      <find>attachment</find>
-      <find>Å</find>
-      <find>row-fluid</find>
-      <find>span</find>
-      <find>fa-question-sign</find>
-      <find>talentstipend/kunst</find>
-      <find>updateS</find>
-      <find>Artapplication</find>
-      <find>btn-logn</find>
-      <find>.btn</find>
-      <find>logge</find>
-      <find>btn-login</find>
-      <find>artapplication</find>
-      <find>Tracking</find>
-      <find>day</find>
-      <find>Portfolio</find>
-      <find>portfolio</find>
-      <find>portefolje</find>
-      <find>Portefølje</find>
-      <find>paybox</find>
+      <find>typeA</find>
+      <find>$pipeline</find>
+      <find>ranke</find>
+      <find>tinymce</find>
+      <find>.validate</find>
+      <find>_feedback</find>
+      <find>rent.buffer</find>
+      <find>RENT_BUFFER</find>
+      <find>Opprettet</find>
+      <find>$obj</find>
+      <find>idqry</find>
+      <find>SpocontractP</find>
+      <find>badge</find>
+      <find>$sorting-</find>
+      <find>$sorting</find>
+      <find>$sorting-&gt;link</find>
+      <find>sorting-&gt;link</find>
+      <find>Offer</find>
+      <find>getEx</find>
+      <find>Pipeline</find>
+      <find>&lt;?= $_u-&gt;ri(3); ?&gt;/kunde</find>
+      <find>hasOf</find>
+      <find>pipeline</find>
+      <find>mycalendarday</find>
+      <find>modal-</find>
+      <find>#f9</find>
+      <find>header</find>
+      <find>page</find>
+      <find>tracking</find>
+      <find>$object</find>
     </findStrings>
     <replaceStrings>
-      <replace>Art</replace>
-      <replace>art</replace>
-      <replace>Validtodate</replace>
-      <replace>sent</replace>
-      <replace>entdate</replace>
-      <replace>validtodate</replace>
-      <replace>#028a53</replace>
-      <replace>Biler</replace>
-      <replace>Enterprise</replace>
-      <replace>Enterprise bilutleie</replace>
-      <replace>Bilutleie</replace>
-      <replace>bilutleie</replace>
-      <replace>Bilkategori</replace>
-      <replace>Bil</replace>
-      <replace>biler</replace>
-      <replace>cars</replace>
-      <replace>bil</replace>
-      <replace>bilen</replace>
-      <replace>row</replace>
-      <replace>col-md-</replace>
-      <replace>fa-question-circle</replace>
-      <replace>gavemidler</replace>
-      <replace>Gvmapplication</replace>
-      <replace>gvmapplication</replace>
-      <replace>sentdate</replace>
-      <replace>created</replace>
-      <replace>Offer</replace>
+      <replace>$spoelement</replace>
+      <replace>poelementcategory</replace>
+      <replace>$noridinvoice</replace>
+      <replace>h4</replace>
+      <replace>Registrar</replace>
+      <replace>TYPE_REGISTRAR</replace>
+      <replace>Settings::instance()-&gt;get('invoice.annual</replace>
+      <replace>getNoridInvoiceFileparams</replace>
+      <replace>importNoridInvoiceFile</replace>
+      <replace>$summary</replace>
+      <replace>trackingline</replace>
+      <replace>30px</replace>
+      <replace>pipeline</replace>
+      <replace>28px</replace>
+      <replace>target</replace>
+      <replace>payment</replace>
+      <replace>popayment</replace>
+      <replace>btn-default</replace>
+      <replace>$pipeline</replace>
       <replace>offer</replace>
-      <replace>tilbud</replace>
-      <replace>Tilbud</replace>
+      <replace>ipeline</replace>
+      <replace>$projectcustomer</replace>
+      <replace>$booking</replace>
+      <replace>SpocontracttemplateP</replace>
+      <replace>Pipeline</replace>
+      <replace>&lt;?= $_u-&gt;ri(2); ?&gt;/konsulent/kunde</replace>
+      <replace>&lt;?= $_u-&gt;ri(2); ?&gt;/uteselger/kunde</replace>
+      <replace>Booking</replace>
+      <replace>booking</replace>
+      <replace>$spocontract</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/handler</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/sportapplication</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/artapplication</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen/module/template/spo/spopayment</dir>
+      <dir>$USER_HOME$/project/innit/stash/rbase3</dir>
+      <dir>$USER_HOME$/project/innit/stash/statoilhenger</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/artapplication/inc</dir>
     </dirStrings>
   </component>
 </application>

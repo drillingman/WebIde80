@@ -1,0 +1,36 @@
+<keymap version="1" name="innit" parent="Mac OS X 10.5+">
+  <action id="ActivateGulpToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="ActivateHierarchyToolWindow" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoClass" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta P" />
+    <keyboard-shortcut first-keystroke="meta T" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt L" />
+    <keyboard-shortcut first-keystroke="shift control F" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>
