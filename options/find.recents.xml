@@ -1,7 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>typeA</find>
       <find>$pipeline</find>
       <find>ranke</find>
       <find>tinymce</find>
@@ -31,9 +30,9 @@
       <find>page</find>
       <find>tracking</find>
       <find>$object</find>
+      <find>_backtracked_objects</find>
     </findStrings>
     <replaceStrings>
-      <replace>$spoelement</replace>
       <replace>poelementcategory</replace>
       <replace>$noridinvoice</replace>
       <replace>h4</replace>
@@ -63,6 +62,7 @@
       <replace>Booking</replace>
       <replace>booking</replace>
       <replace>$spocontract</replace>
+      <replace>_updated_backtrack</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/handler</dir>

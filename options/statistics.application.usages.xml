@@ -26,13 +26,13 @@
       <project id="rbfc-trunk" values="svn" />
       <project id="rbase3" values="Git" />
       <project id="sponsorportalen" values="Git" />
+      <project id="domenefakturering" values="Git" />
       <project id="bilutleie" values="Git" />
-      <project id="epp-drs" values="Git" />
       <project id="trunk" values="svn" />
       <project id="shtools" values="svn" />
       <project id="olkweb3" values="Git" />
       <project id="rbase3.0" values="svn" />
-      <project id="domenefakturering" values="Git" />
+      <project id="epp-drs" values="Git" />
       <project id="statoilhenger" values="Git" />
       <project id="godial" values="Git" />
       <project id="sponsorportalen-ekstern" values="Git" />
@@ -46,20 +46,20 @@
       <project id="godial" values="JavascriptDebugType" />
     </group>
     <group name="file-type">
-      <project id="rbase3.0" values="Markdown,PHP,LESS,XML,PLAIN_TEXT,Images,Locale,CSS,HTML,SCSS,SourceMap,Bash,Ini,JavaScript,Git file,YAML,UNKNOWN,JSON,SQL" />
-      <project id="domenefakturering" values="JSON,PHP,YAML,JSHint,Ini,Locale,CoffeeScript,SQL,Images,Markdown,SourceMap,ESLint,JavaScript,ARCHIVE,XML,Bash,LESS,Npm file,SCSS,CSS,C++,HTML,TypeScript,Git file,PLAIN_TEXT,JSCS,SmartyConfig,PATCH,UNKNOWN" />
-      <project id="sponsorportalen" values="SmartyConfig,CSS,YAML,JavaScript,SQL,Git file,Ini,UNKNOWN,PLAIN_TEXT,Images,JSON,HTML,Locale,Markdown,PHP,XML,SourceMap,Bash,SCSS" />
-      <project id="statoilhenger" values="SQL,XML,HTML,JavaScript,Ini,PHP,Bash,UNKNOWN,JSON,Images,SourceMap,Native,LESS,Git file,CSS,Markdown,PLAIN_TEXT" />
-      <project id="epp-drs" values="JavaScript,Markdown,DTD,XML,SmartyConfig,Bash,HTML,UNKNOWN,SQL,Images,htaccess,Ini,PHP,Locale,Native,CSS,Smarty,PLAIN_TEXT,Git file" />
-      <project id="sponsorportalen-ekstern" values="Npm file,JSHint file,PHP,JSHint,Bash,JavaScript,SmartyConfig,Images,SourceMap,HTML,SQL,ARCHIVE,DTD,CSS,JSCS,C++,PATCH,UNKNOWN,YAML,XML,Ini,TypeScript,SCSS,ESLint,PLAIN_TEXT,Git file,Locale,CoffeeScript,Markdown,JSON" />
-      <project id="trunk" values="JavaScript,PHP,JSON,XML,PLAIN_TEXT,Locale,SourceMap,CSS,SQL,SmartyConfig,Ini,Images,UNKNOWN,HTML" />
-      <project id="rbfc-trunk" values="PHP,JavaScript,HTML,UNKNOWN,Images,JSON,CSS,SQL,SmartyConfig,Ini,PLAIN_TEXT,Bash,Locale,XML" />
-      <project id="olkweb3" values="Locale,CoffeeScript,JSHint,SCSS,Images,Bash,LESS,SourceMap,C++,Ini,PHP,UNKNOWN,PLAIN_TEXT,Npmignore file,YAML,JSON,SQL,HTML,SmartyConfig,DTD,JavaScript,PATCH,Gitignore file,ARCHIVE,Markdown,Native,CSS,XML" />
-      <project id="godial" values="Bash,XML,SourceMap,PHP,Locale,Markdown,PLAIN_TEXT,UNKNOWN,Images,SCSS,HTML,JSON,DATASOURCE_STORAGE,Ini,CSS,YAML,SmartyConfig,JavaScript,Git file,SQL" />
-      <project id="shtools" values="CSS,JSON,Images,PHP,XML,SQL,HTML,SourceMap,PLAIN_TEXT,SmartyConfig,Locale,JavaScript,UNKNOWN,Ini,Bash" />
-      <project id="rbase3" values="Git file,SCSS,PHP,CSS,PLAIN_TEXT,HTML,YAML,Markdown,UNKNOWN,JSON,Locale,Images,JavaScript,Ini,XML,SourceMap,Bash,SQL" />
-      <project id="bilutleie" values="Ini,Bash,SourceMap,Git file,Markdown,JavaScript,UNKNOWN,JSON,Native,CSS,SQL,PHP,LESS,Images,XML,PLAIN_TEXT,HTML" />
-      <project id="untitled" values="XML,PLAIN_TEXT,PHP,UNKNOWN" />
+      <project id="rbase3.0" values="PHP,HTML,Markdown,SQL,Bash,LESS,PLAIN_TEXT,Locale,JavaScript,SourceMap,JSON,Images,CSS,SCSS,UNKNOWN,YAML,Ini,Git file,XML" />
+      <project id="domenefakturering" values="SourceMap,SQL,Npm file,JavaScript,YAML,PATCH,Images,Git file,C++,JSCS,SCSS,Ini,CoffeeScript,JSHint,LESS,Locale,PLAIN_TEXT,Bash,HTML,TypeScript,JSON,ARCHIVE,ESLint,PHP,CSS,XML,UNKNOWN,Markdown,SmartyConfig" />
+      <project id="sponsorportalen" values="Ini,Git file,SCSS,UNKNOWN,PLAIN_TEXT,SQL,SmartyConfig,YAML,Markdown,Bash,SourceMap,XML,Images,CSS,LESS,HTML,Locale,PHP,JSON,JavaScript" />
+      <project id="statoilhenger" values="PLAIN_TEXT,Images,Git file,LESS,SQL,Bash,PHP,SourceMap,JavaScript,CSS,UNKNOWN,Markdown,XML,JSON,Native,Ini,HTML" />
+      <project id="epp-drs" values="CSS,htaccess,Bash,Locale,Native,PHP,UNKNOWN,Ini,Smarty,PLAIN_TEXT,JavaScript,SQL,SmartyConfig,Git file,XML,HTML,Markdown,DTD,Images" />
+      <project id="sponsorportalen-ekstern" values="PATCH,DTD,Bash,JSON,XML,ESLint,Npm file,SCSS,UNKNOWN,JSCS,JSHint,YAML,Ini,SmartyConfig,TypeScript,Images,CoffeeScript,ARCHIVE,HTML,SourceMap,PHP,JavaScript,SQL,C++,JSHint file,PLAIN_TEXT,Git file,Markdown,Locale,CSS" />
+      <project id="trunk" values="SQL,PLAIN_TEXT,SmartyConfig,XML,SourceMap,PHP,HTML,CSS,Locale,JSON,Ini,Images,UNKNOWN,JavaScript" />
+      <project id="rbfc-trunk" values="Bash,Locale,JavaScript,Ini,PHP,SQL,CSS,SmartyConfig,PLAIN_TEXT,UNKNOWN,XML,JSON,Images,HTML" />
+      <project id="olkweb3" values="SCSS,CSS,JSON,Ini,LESS,SmartyConfig,SQL,Images,YAML,Markdown,Bash,JSHint,PATCH,UNKNOWN,C++,PLAIN_TEXT,PHP,Npmignore file,CoffeeScript,ARCHIVE,Native,XML,HTML,Gitignore file,SourceMap,DTD,Locale,JavaScript" />
+      <project id="godial" values="SCSS,Locale,CSS,PLAIN_TEXT,SmartyConfig,UNKNOWN,Bash,Images,HTML,XML,Markdown,PHP,YAML,SQL,JavaScript,Ini,SourceMap,DATASOURCE_STORAGE,Git file,JSON,LESS" />
+      <project id="shtools" values="PLAIN_TEXT,JSON,PHP,XML,JavaScript,Bash,UNKNOWN,CSS,SQL,SmartyConfig,SourceMap,Locale,Ini,Images,HTML" />
+      <project id="rbase3" values="SQL,CSS,SCSS,JavaScript,Images,YAML,PLAIN_TEXT,Git file,LESS,Locale,Markdown,JSON,HTML,Ini,Bash,XML,SourceMap,PHP,UNKNOWN" />
+      <project id="bilutleie" values="Native,PHP,HTML,UNKNOWN,XML,JavaScript,PLAIN_TEXT,SourceMap,LESS,JSON,CSS,Images,Markdown,Bash,Ini,SQL,Git file" />
+      <project id="untitled" values="XML,UNKNOWN,PLAIN_TEXT,PHP" />
     </group>
     <group name="php-interpreter-version">
       <project id="rbase3.0" values="not installed" />
@@ -87,13 +87,13 @@
       <project id="rbfc-trunk" values="LOCAL" />
       <project id="rbase3" values="LOCAL" />
       <project id="sponsorportalen" values="LOCAL" />
+      <project id="domenefakturering" values="LOCAL" />
       <project id="bilutleie" values="LOCAL" />
-      <project id="epp-drs" values="LOCAL" />
       <project id="trunk" values="LOCAL" />
       <project id="shtools" values="LOCAL" />
       <project id="olkweb3" values="LOCAL" />
       <project id="rbase3.0" values="LOCAL" />
-      <project id="domenefakturering" values="LOCAL" />
+      <project id="epp-drs" values="LOCAL" />
       <project id="statoilhenger" values="LOCAL" />
       <project id="godial" values="LOCAL" />
       <project id="sponsorportalen-ekstern" values="LOCAL" />
@@ -222,7 +222,7 @@
       <entry feature="ide.settings.Editor" count="1" />
       <entry feature="ide.settings.Emmet" count="1" />
       <entry feature="ide.settings.File_Encodings" count="5" />
-      <entry feature="ide.settings.File_and_Code_Templates" count="3" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="4" />
       <entry feature="ide.settings.Font" count="40" />
       <entry feature="ide.settings.General" count="20" />
       <entry feature="ide.settings.HTML" count="13" />
@@ -239,7 +239,7 @@
       <entry feature="ide.settings.Spelling" count="1" />
       <entry feature="ide.settings.Vagrant" count="1" />
       <entry feature="ide.settings.Version_Control" count="3" />
-      <entry feature="ideaapp.started" count="88" />
+      <entry feature="ideaapp.started" count="89" />
     </counts>
   </component>
 </application>
