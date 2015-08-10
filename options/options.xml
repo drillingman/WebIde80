@@ -18,8 +18,8 @@
     <property name="ProjectStructure.SecondLevelElements" value="0.2" />
     <property name="KEYMAP" value="gulp&#10;tool windows&#10;view&#10;search&#10;format" />
     <property name="FindSplitterProportion" value="0.25" />
-    <property name="FileTemplates.CurrentTab" value="Code" />
-    <property name="FileTemplates.SelectedTemplate" value="PHP Setter Method" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="file.chooser.recent.files" value="/Applications/MAMP/bin/php/php5.3.29/bin&#10;/Applications/MAMP/bin/php/php5.3.29&#10;/Users/bohrmann/project/innit/stash/sponsorportalen/rbase&#10;/Users/bohrmann/site/spp.dev/www&#10;/Applications/MAMP/bin/php/php5.3.28/bin&#10;/Applications/MAMP/bin/php/php5.3.28" />
@@ -33,7 +33,7 @@
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6002522" />
-    <property name="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.splitter" value="0.3" />
+    <property name="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.splitter" value="0.56398106" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="bashsupport.weddingNotification.shown" value="0" />
     <property name="bashsupport.weddingNotification.enabled" value="false" />

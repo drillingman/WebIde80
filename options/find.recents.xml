@@ -1,77 +1,82 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>$pipeline</find>
-      <find>ranke</find>
-      <find>tinymce</find>
-      <find>.validate</find>
-      <find>_feedback</find>
-      <find>rent.buffer</find>
-      <find>RENT_BUFFER</find>
-      <find>Opprettet</find>
-      <find>$obj</find>
-      <find>idqry</find>
-      <find>SpocontractP</find>
-      <find>badge</find>
-      <find>$sorting-</find>
-      <find>$sorting</find>
-      <find>$sorting-&gt;link</find>
-      <find>sorting-&gt;link</find>
-      <find>Offer</find>
-      <find>getEx</find>
-      <find>Pipeline</find>
-      <find>&lt;?= $_u-&gt;ri(3); ?&gt;/kunde</find>
-      <find>hasOf</find>
-      <find>pipeline</find>
-      <find>mycalendarday</find>
-      <find>modal-</find>
-      <find>#f9</find>
-      <find>header</find>
-      <find>page</find>
-      <find>tracking</find>
-      <find>$object</find>
-      <find>_backtracked_objects</find>
+      <find>pocontract</find>
+      <find>#spoactivitytaskindex-&lt;?= $spoactivity-&gt;id(); ?&gt;</find>
+      <find>activity</find>
+      <find>#spoactivitytaskindex</find>
+      <find>postdata</find>
+      <find>utilizationToHuman</find>
+      <find>payment</find>
+      <find>contract</find>
+      <find>rel=&quot;#spoactivityindex&quot;</find>
+      <find>icalcreator</find>
+      <find>Hitrate</find>
+      <find>name=&quot;acall-comment&quot;</find>
+      <find>class=&quot;form-control&quot; name=&quot;acall-comment&quot;</find>
+      <find>textarea</find>
+      <find>label</find>
+      <find>acall</find>
+      <find>processIndex</find>
+      <find>$qmask = '%' . $q . '%'</find>
+      <find>$qmask</find>
+      <find>$qmask =</find>
+      <find>$qmask=</find>
+      <find>$qmask = '%' . $q . '%';</find>
+      <find>tool</find>
+      <find>ResourceView</find>
+      <find>AttachmentView</find>
+      <find>data-setvalue</find>
+      <find>dist/fonts/</find>
+      <find>fonts/</find>
+      <find>prio1</find>
+      <find>$html-&gt;body</find>
     </findStrings>
     <replaceStrings>
-      <replace>poelementcategory</replace>
-      <replace>$noridinvoice</replace>
-      <replace>h4</replace>
-      <replace>Registrar</replace>
-      <replace>TYPE_REGISTRAR</replace>
-      <replace>Settings::instance()-&gt;get('invoice.annual</replace>
-      <replace>getNoridInvoiceFileparams</replace>
-      <replace>importNoridInvoiceFile</replace>
-      <replace>$summary</replace>
-      <replace>trackingline</replace>
-      <replace>30px</replace>
-      <replace>pipeline</replace>
-      <replace>28px</replace>
-      <replace>target</replace>
-      <replace>payment</replace>
-      <replace>popayment</replace>
-      <replace>btn-default</replace>
-      <replace>$pipeline</replace>
+      <replace>$spoactivity</replace>
+      <replace>salesbudgetindex</replace>
+      <replace>recurringAsText</replace>
+      <replace>$spocontracttemplate</replace>
+      <replace>categoryfilter</replace>
+      <replace>saledate</replace>
+      <replace>aledate</replace>
+      <replace>getPortfolioTotalvaluesumPerDay</replace>
+      <replace>salesumByPeriod</replace>
+      <replace>offersumByPeriod</replace>
       <replace>offer</replace>
-      <replace>ipeline</replace>
-      <replace>$projectcustomer</replace>
-      <replace>$booking</replace>
-      <replace>SpocontracttemplateP</replace>
-      <replace>Pipeline</replace>
-      <replace>&lt;?= $_u-&gt;ri(2); ?&gt;/konsulent/kunde</replace>
-      <replace>&lt;?= $_u-&gt;ri(2); ?&gt;/uteselger/kunde</replace>
-      <replace>Booking</replace>
-      <replace>booking</replace>
-      <replace>$spocontract</replace>
-      <replace>_updated_backtrack</replace>
+      <replace>offerbudget</replace>
+      <replace>$salesbudgetachievment</replace>
+      <replace>$offer</replace>
+      <replace>salesbudget</replace>
+      <replace>$salesbudget</replace>
+      <replace>budsjett</replace>
+      <replace>$acall</replace>
+      <replace>refobject</replace>
+      <replace>$ac</replace>
+      <replace>ctivitytaskdate</replace>
+      <replace>ctivitytask</replace>
+      <replace>a.</replace>
+      <replace>`spoactivity` a</replace>
+      <replace>poactivity</replace>
+      <replace>rel=&quot;&lt;? if (isset($rel) &amp;&amp; $rel) { ?&gt;#&lt;?=$rel;?&gt;&lt;? } else {?&gt;#spoactivityindex&lt;?}?&gt;&quot;</replace>
+      <replace>class=&quot;acall-comment form-control&quot; name=&quot;acall-comment&quot;</replace>
+      <replace>$qmask = '%' . addslashes($q) . '%'</replace>
+      <replace>$qmask = '%' . addslashes($q) . '%';</replace>
+      <replace>$html-&gt;table</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/handler</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/sportapplication</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/artapplication</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen/module/template/spo/spopayment</dir>
-      <dir>$USER_HOME$/project/innit/stash/rbase3</dir>
       <dir>$USER_HOME$/project/innit/stash/statoilhenger</dir>
       <dir>$USER_HOME$/project/innit/stash/sponsorportalen-ekstern/module/template/artapplication/inc</dir>
+      <dir>$USER_HOME$/project/innit/stash/godial/resource/database</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen/module/template/spo/spoactivitytask</dir>
+      <dir>$USER_HOME$/project/innit/stash/rbase3</dir>
+      <dir>$USER_HOME$/project/innit/stash/godial</dir>
+      <dir>$USER_HOME$/project/innit/stash/rbase3/handler</dir>
+      <dir>$USER_HOME$/project/innit/stash/sponsorportalen/resource/script</dir>
     </dirStrings>
   </component>
 </application>

@@ -1,10 +1,10 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="svn working copy format">
-      <project id="trunk" values="1.6" />
       <project id="rbfc-trunk" values="1.6" />
-      <project id="rbase3.0" values="1.7" />
+      <project id="trunk" values="1.6" />
       <project id="shtools" values="1.7" />
+      <project id="rbase3.0" values="1.7" />
     </group>
     <group name="php-interpreters">
       <project id="rbase3.0" values="1" />
@@ -26,13 +26,13 @@
       <project id="rbfc-trunk" values="svn" />
       <project id="rbase3" values="Git" />
       <project id="sponsorportalen" values="Git" />
-      <project id="domenefakturering" values="Git" />
       <project id="bilutleie" values="Git" />
+      <project id="epp-drs" values="Git" />
       <project id="trunk" values="svn" />
       <project id="shtools" values="svn" />
       <project id="olkweb3" values="Git" />
       <project id="rbase3.0" values="svn" />
-      <project id="epp-drs" values="Git" />
+      <project id="domenefakturering" values="Git" />
       <project id="statoilhenger" values="Git" />
       <project id="godial" values="Git" />
       <project id="sponsorportalen-ekstern" values="Git" />
@@ -41,25 +41,25 @@
       <project id="sponsorportalen" values="PhpWebAppRunConfigurationType" />
     </group>
     <group name="run-configuration-type-temp">
-      <project id="sponsorportalen" values="js.build_tools.gulp,JavascriptDebugType" />
+      <project id="sponsorportalen" values="JavascriptDebugType,js.build_tools.gulp" />
       <project id="sponsorportalen-ekstern" values="js.build_tools.gulp" />
       <project id="godial" values="JavascriptDebugType" />
     </group>
     <group name="file-type">
-      <project id="rbase3.0" values="PHP,HTML,Markdown,SQL,Bash,LESS,PLAIN_TEXT,Locale,JavaScript,SourceMap,JSON,Images,CSS,SCSS,UNKNOWN,YAML,Ini,Git file,XML" />
-      <project id="domenefakturering" values="SourceMap,SQL,Npm file,JavaScript,YAML,PATCH,Images,Git file,C++,JSCS,SCSS,Ini,CoffeeScript,JSHint,LESS,Locale,PLAIN_TEXT,Bash,HTML,TypeScript,JSON,ARCHIVE,ESLint,PHP,CSS,XML,UNKNOWN,Markdown,SmartyConfig" />
-      <project id="sponsorportalen" values="Ini,Git file,SCSS,UNKNOWN,PLAIN_TEXT,SQL,SmartyConfig,YAML,Markdown,Bash,SourceMap,XML,Images,CSS,LESS,HTML,Locale,PHP,JSON,JavaScript" />
-      <project id="statoilhenger" values="PLAIN_TEXT,Images,Git file,LESS,SQL,Bash,PHP,SourceMap,JavaScript,CSS,UNKNOWN,Markdown,XML,JSON,Native,Ini,HTML" />
-      <project id="epp-drs" values="CSS,htaccess,Bash,Locale,Native,PHP,UNKNOWN,Ini,Smarty,PLAIN_TEXT,JavaScript,SQL,SmartyConfig,Git file,XML,HTML,Markdown,DTD,Images" />
-      <project id="sponsorportalen-ekstern" values="PATCH,DTD,Bash,JSON,XML,ESLint,Npm file,SCSS,UNKNOWN,JSCS,JSHint,YAML,Ini,SmartyConfig,TypeScript,Images,CoffeeScript,ARCHIVE,HTML,SourceMap,PHP,JavaScript,SQL,C++,JSHint file,PLAIN_TEXT,Git file,Markdown,Locale,CSS" />
-      <project id="trunk" values="SQL,PLAIN_TEXT,SmartyConfig,XML,SourceMap,PHP,HTML,CSS,Locale,JSON,Ini,Images,UNKNOWN,JavaScript" />
-      <project id="rbfc-trunk" values="Bash,Locale,JavaScript,Ini,PHP,SQL,CSS,SmartyConfig,PLAIN_TEXT,UNKNOWN,XML,JSON,Images,HTML" />
-      <project id="olkweb3" values="SCSS,CSS,JSON,Ini,LESS,SmartyConfig,SQL,Images,YAML,Markdown,Bash,JSHint,PATCH,UNKNOWN,C++,PLAIN_TEXT,PHP,Npmignore file,CoffeeScript,ARCHIVE,Native,XML,HTML,Gitignore file,SourceMap,DTD,Locale,JavaScript" />
-      <project id="godial" values="SCSS,Locale,CSS,PLAIN_TEXT,SmartyConfig,UNKNOWN,Bash,Images,HTML,XML,Markdown,PHP,YAML,SQL,JavaScript,Ini,SourceMap,DATASOURCE_STORAGE,Git file,JSON,LESS" />
-      <project id="shtools" values="PLAIN_TEXT,JSON,PHP,XML,JavaScript,Bash,UNKNOWN,CSS,SQL,SmartyConfig,SourceMap,Locale,Ini,Images,HTML" />
-      <project id="rbase3" values="SQL,CSS,SCSS,JavaScript,Images,YAML,PLAIN_TEXT,Git file,LESS,Locale,Markdown,JSON,HTML,Ini,Bash,XML,SourceMap,PHP,UNKNOWN" />
-      <project id="bilutleie" values="Native,PHP,HTML,UNKNOWN,XML,JavaScript,PLAIN_TEXT,SourceMap,LESS,JSON,CSS,Images,Markdown,Bash,Ini,SQL,Git file" />
-      <project id="untitled" values="XML,UNKNOWN,PLAIN_TEXT,PHP" />
+      <project id="rbase3.0" values="HTML,XML,PLAIN_TEXT,Markdown,Images,JavaScript,SCSS,PHP,UNKNOWN,JSON,LESS,CSS,YAML,Locale,SQL,Ini,Bash,SourceMap,Git file" />
+      <project id="domenefakturering" values="Locale,ARCHIVE,JSHint file,ESLint,JavaScript,Git file,C++,Bash,Images,PLAIN_TEXT,Ini,Markdown,HTML,SCSS,SQL,JSHint,UNKNOWN,JSON,LESS,Npm file,CoffeeScript,YAML,JSCS,CSS,XML,PATCH,TypeScript,PHP,SmartyConfig,SourceMap" />
+      <project id="sponsorportalen" values="Images,YAML,SQL,JSON,XML,Bash,HTML,SCSS,SmartyConfig,PHP,CSS,SourceMap,Markdown,UNKNOWN,Locale,LESS,Ini,Git file,ARCHIVE,PLAIN_TEXT,JavaScript" />
+      <project id="statoilhenger" values="Git file,Ini,JSON,Native,SQL,XML,UNKNOWN,Bash,PHP,CSS,PLAIN_TEXT,LESS,Markdown,Images,SourceMap,JavaScript,HTML" />
+      <project id="epp-drs" values="Native,UNKNOWN,XML,CSS,DTD,SmartyConfig,Locale,SQL,HTML,Images,JavaScript,Git file,htaccess,Bash,Ini,Smarty,PLAIN_TEXT,Markdown,PHP" />
+      <project id="sponsorportalen-ekstern" values="SCSS,PLAIN_TEXT,Bash,Markdown,SmartyConfig,CoffeeScript,SourceMap,YAML,PHP,JSON,PATCH,Npm file,UNKNOWN,ARCHIVE,JavaScript,JSHint file,DTD,SQL,HTML,Ini,Images,Git file,TypeScript,LESS,CSS,JSHint,XML,ESLint,Locale,C++,JSCS" />
+      <project id="trunk" values="PLAIN_TEXT,UNKNOWN,PHP,Images,SmartyConfig,SourceMap,SQL,XML,Ini,JavaScript,HTML,JSON,CSS,Locale" />
+      <project id="rbfc-trunk" values="HTML,UNKNOWN,XML,JavaScript,Images,Locale,PLAIN_TEXT,Ini,JSON,Bash,PHP,SmartyConfig,CSS,SQL" />
+      <project id="olkweb3" values="SCSS,ARCHIVE,Git file,Npm file,JSHint file,DTD,SQL,Native,Locale,JSON,Images,YAML,SmartyConfig,C++,PLAIN_TEXT,UNKNOWN,JavaScript,LESS,PATCH,JSHint,Bash,PHP,XML,CSS,Ini,CoffeeScript,Markdown,SourceMap,HTML" />
+      <project id="godial" values="UNKNOWN,SourceMap,JSON,CSS,HTML,YAML,PLAIN_TEXT,DATASOURCE_STORAGE,Git file,LESS,PHP,Locale,JavaScript,Markdown,Images,Ini,SmartyConfig,SCSS,XML,Bash,SQL" />
+      <project id="shtools" values="JSON,Images,Ini,SourceMap,XML,Locale,PLAIN_TEXT,SmartyConfig,JavaScript,SQL,HTML,CSS,UNKNOWN,Bash,PHP" />
+      <project id="rbase3" values="Bash,Ini,SourceMap,Images,LESS,XML,UNKNOWN,Git file,JSON,SQL,SCSS,HTML,PLAIN_TEXT,JavaScript,Markdown,Locale,YAML,PHP,CSS" />
+      <project id="bilutleie" values="Images,JavaScript,PHP,PLAIN_TEXT,Bash,CSS,SQL,UNKNOWN,Git file,SourceMap,Markdown,LESS,Native,HTML,XML,Ini,JSON" />
+      <project id="untitled" values="UNKNOWN,PHP,XML,PLAIN_TEXT" />
     </group>
     <group name="php-interpreter-version">
       <project id="rbase3.0" values="not installed" />
@@ -87,13 +87,13 @@
       <project id="rbfc-trunk" values="LOCAL" />
       <project id="rbase3" values="LOCAL" />
       <project id="sponsorportalen" values="LOCAL" />
-      <project id="domenefakturering" values="LOCAL" />
       <project id="bilutleie" values="LOCAL" />
+      <project id="epp-drs" values="LOCAL" />
       <project id="trunk" values="LOCAL" />
       <project id="shtools" values="LOCAL" />
       <project id="olkweb3" values="LOCAL" />
       <project id="rbase3.0" values="LOCAL" />
-      <project id="epp-drs" values="LOCAL" />
+      <project id="domenefakturering" values="LOCAL" />
       <project id="statoilhenger" values="LOCAL" />
       <project id="godial" values="LOCAL" />
       <project id="sponsorportalen-ekstern" values="LOCAL" />
@@ -206,10 +206,10 @@
       <entry feature="NewDirectoryProjectAction.PHP Empty Project" count="1" />
       <entry feature="NewDirectoryProjectAction.empty" count="1" />
       <entry feature="execute.JavascriptDebugType.Debug" count="5" />
-      <entry feature="execute.JavascriptDebugType.Run" count="3" />
+      <entry feature="execute.JavascriptDebugType.Run" count="4" />
       <entry feature="execute.PhpWebAppRunConfigurationType.Debug" count="3" />
       <entry feature="execute.js.build_tools.gulp.Debug" count="4" />
-      <entry feature="execute.js.build_tools.gulp.Run" count="125" />
+      <entry feature="execute.js.build_tools.gulp.Run" count="161" />
       <entry feature="ide.settings.Appearance" count="5" />
       <entry feature="ide.settings.CSS" count="17" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="46" />
@@ -239,7 +239,7 @@
       <entry feature="ide.settings.Spelling" count="1" />
       <entry feature="ide.settings.Vagrant" count="1" />
       <entry feature="ide.settings.Version_Control" count="3" />
-      <entry feature="ideaapp.started" count="89" />
+      <entry feature="ideaapp.started" count="106" />
     </counts>
   </component>
 </application>

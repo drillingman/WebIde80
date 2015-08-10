@@ -56,30 +56,30 @@
     <option name="SHOW_PATH" value="true" />
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/project/innit/stash/sponsorportalen" />
-        <option value="$USER_HOME$/project/innit/stash/godial" />
-        <option value="$USER_HOME$/project/innit/stash/rbase3" />
-        <option value="$USER_HOME$/project/innit/stash/sponsorportalen-ekstern" />
-        <option value="$USER_HOME$/project/innit/stash/statoilhenger" />
         <option value="$USER_HOME$/project/innit/stash/domenefakturering" />
+        <option value="$USER_HOME$/project/innit/stash/sponsorportalen" />
+        <option value="$USER_HOME$/project/innit/stash/rbase3" />
+        <option value="$USER_HOME$/project/innit/stash/olkweb3" />
+        <option value="$USER_HOME$/project/innit/stash/statoilhenger" />
+        <option value="$USER_HOME$/project/innit/stash/godial" />
+        <option value="$USER_HOME$/project/innit/stash/sponsorportalen-ekstern" />
         <option value="$USER_HOME$/project/privat/github/drillingman/epp-drs" />
         <option value="$USER_HOME$/project/innit/stash/bilutleie" />
         <option value="$USER_HOME$/project/innit/innit-project/rbase/branches/rbase3.0" />
-        <option value="$USER_HOME$/project/innit/stash/olkweb3" />
         <option value="$USER_HOME$/project/innit/innit-project/sparebanken-hedmark/shtools" />
         <option value="$USER_HOME$/project/privat/rbfc/trunk" />
         <option value="$USER_HOME$/project/drillingman/rbfc/trunk" />
@@ -92,11 +92,11 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/project/innit/stash/rbase3" />
-        <option value="$USER_HOME$/project/innit/stash/godial" />
         <option value="$USER_HOME$/project/innit/stash/sponsorportalen" />
+        <option value="$USER_HOME$/project/innit/stash/domenefakturering" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/project/innit/stash/sponsorportalen" />
+    <option name="lastPath" value="$USER_HOME$/project/innit/stash/domenefakturering" />
   </component>
   <component name="RecentTaskRepositories">
     <JIRA shared="true" url="http://jira.innit.no:8081">
